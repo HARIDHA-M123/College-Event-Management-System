@@ -1,0 +1,32 @@
+{
+  "name": "college-events-backend",
+  "version": "1.0.0",
+  "description": "Backend for College Event Management System (Express + MongoDB + Socket.IO)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src --exec node src/index.js",
+    "migrate:removeXp": "node scripts/migrateRemoveXp.js",
+    "verify:xp": "node scripts/verifyXpGone.js",
+    "seed:all": "node scripts/seedAll.js",
+    "db:reset-and-seed": "node scripts/seedAll.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "college-event-frontend": "file:..",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.5.0",
+    "nodemailer": "^6.10.1",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

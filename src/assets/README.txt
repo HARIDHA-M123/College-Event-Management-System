@@ -1,0 +1,1 @@
+Place image assets here (event1.jpg, event2.jpg). For now the project references /assets/event1.jpg and /assets/event2.jpg — add real images or replace paths as needed.
