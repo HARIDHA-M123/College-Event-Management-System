@@ -10,7 +10,6 @@ Features included (frontend-only, mocked data):
 - Search / filters (UI shell — can be wired to API)
 - Event cards with RSVP/share/like actions
 - Dark/Light mode toggle
-- Notification drawer
 - Create Event form with image preview
 - Admin analytics (Recharts)
 - Leaderboard and XP badges
